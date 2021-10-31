@@ -9,6 +9,6 @@ jobs:
       - name: Yandex Image Registry Action
         uses: pyropy/yandex-cloud-image-registry@v0.8-alpha
         with: 
-          YC_SERVICE_ACCOUNT_KEY_FILE: ${{}}
+          YC_SERVICE_ACCOUNT_KEY_FILE: ${{KEY}}
           YC_IMG_REGISTRY_ID: crpnj4t6oes1a2f5bsk7
           DOCKER_IMG_NAME: main
