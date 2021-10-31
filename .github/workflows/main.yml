@@ -9,13 +9,6 @@ jobs:
       - name: Yandex Image Registry Action
         uses: pyropy/yandex-cloud-image-registry@v0.8-alpha
         with: 
-          YC_SERVICE_ACCOUNT_KEY_FILE: {
-   "id": "aje89mobvtctjec0cnt9",
-   "service_account_id": "ajei3k0ni4uuibd84ocv",
-   "created_at": "2021-10-31T07:25:03.464322206Z",
-   "key_algorithm": "RSA_2048",
-   "public_key": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlHme3NRGrSDR4DoRbs00\niluzmV3+K/HYpWgJnfZhfpPiuJUHwDnomBMimXjY1sISt+QRsOP7ECo3rVWGdowa\nmAi06+xbSNVg6Qw6owgEfIZNXLDjlh2ue7AI8Egp0j/m73Dl4qdFpoyItPAyCjJm\nRYyiJwZifB5izjRWwdzyPN6ovsTYDlNecuEtxorUMDtd1Cck+IjryLkor/OTPgP/\nmQiwr3pm2X+G1vDqoyoWr3oTeWSyHDV2/f3n2K3C1HwgrbW/IK6g8J8PjU+Ffak5\nwX8fjdXQTaSWRC2iwo25zwKearJMK+fhzVq+TIpqVLlW34jxclor3lkNiBisOtdF\n4wIDAQAB\n-----END PUBLIC KEY-----\n",
-   "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCUeZ7c1EatINHg\nOhFuzTSKW7OZXf4r8dilaAmd9mF+k+K4lQfAOeiYEyKZeNjWwhK35BGw4/sQKjet\nVYZ2jBqYCLTr7FtI1WDpDDqjCAR8hk1csOOWHa57sAjwSCnSP+bvcOXip0WmjIi0\n8DIKMmZFjKInBmJ8HmLONFbB3PI83qi+xNgOU15y4S3GitQwO13UJyT4iOvIuSiv\n85M+A/+ZCLCvembZf4bW8OqjKhavehN5ZLIcNXb9/efYrcLUfCCttb8grqDwnw+N\nT4V9qTnBfx+N1dBNpJZELaLCjbnPAp5qskwr5+HNWr5MimpUuVbfiPFyWiveWQ2I\nGKw610XjAgMBAAECggEAEWbDsLwMYIQlNPN5UZQpYUHoJcR3Yq0gqBoubl4PBSfN\n/bYxx1zCHvi3KGeaemkaioTnceT2aumXxu/sJ366KzFyCuiTtlCT4Bx3zt3EsNeI\nv6FXuyNVbNev5IGArUyiA1QnDU5vglqcNyCjrMBFbkdSReKgrk1dZS+LL4N2vJ1o\n0P4S+kj/DSAlLGmPSz3LaawA4VbGUGHV0dpBhceH68Ke/qU09fWr9i2C3esIzO6b\nVcBNyb6hc5Df5nvn/m6ol/Atu8bHW09aVNMU/EfD91iK9WIdzrimHXAD+wiswfbF\n2+BCz05rAcbPSy3KTeuge4jbTCWB/x1r3NqblLfP+QKBgQD8AcwzuoBV5j0mJUSJ\nh2hw09HT25CRAGR9zebQvsn3U4iXER6HRau7aCbUCXBcyPGsMEYO/if52kZ2oq6+\nPFzZX2nEb4q1L7evqtG3S+UrAFqhfJOYncQXxDOjlsBQUglXzF1/RooGNOYCafM3\nnZehN33dq2ltYK0esR8n5Am6NwKBgQCW0982fxYUgqs4CdYmPM088SeaubpXRxv3\n2Z12NKr+h5tnmXxy61yL0A+cb3e1+ARYV6E8S7uXy9EwpAWI1RetvUGxCU/PjeMF\nOVVAGc+DvEr6L+KwtcLNr8yfP6UGNpCyBCW3i+dt78i4fGawNWri+nzmv+GTG+/k\nO2EWxpvLtQKBgHs5rc5Fjedy88epRYAyVCGHkfyUSnZ8yKazff/oqv1jPVERL+pZ\naQX0gbgA/Y6BO5tE550BLi8ASqBMIEIpZgVsoF1LZXn/YURmtLF6TQ7f13FLZyij\nTHWKnO2LE3KzCpqB9d38chVi3G2lvSYeyzwr1EIGRUEUmtJ9LYzl9tO1AoGAF2fF\nibVq/b/RRh7wpnpk9wINPUt5CTY1tt6EOuWta1Yr3YXJ9CNl9yRQZ9w8XXahZfwj\nPzIZaFLuoXeyjCtVQ1bNLOXfBrxj8FmXSx02QKElmXF44icylaykOkosF6y8A4P1\nPmhtf3foVAip/sorThHE9CHupV9+eJJmXJxxbMkCgYAGPJ0KEMCYGzm+IUIYyVoM\n60hmlnzN7DfcneSAz10MmMeIMQH+LQxBO6fV/NeGBrP0Uuagsb5tRKQ7teAdABeq\nps8vJqe2duCFSJtCMzpex62P6CBziJjHc/bsAJb1vA9WvvBu5UBx2JgHxTxsQ6wJ\nnUJAOfP+o4QHb04OHXYFlA==\n-----END PRIVATE KEY-----\n"
-}
+          YC_SERVICE_ACCOUNT_KEY_FILE: ${{}}
           YC_IMG_REGISTRY_ID: crpnj4t6oes1a2f5bsk7
           DOCKER_IMG_NAME: main
